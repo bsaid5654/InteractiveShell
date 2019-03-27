@@ -1,29 +1,31 @@
 # InteractiveShell
 a user-interactive shell in C,implementing the major features of GNU/Linux shelllike redirection, piping, handling background processes.
 
-#RUN
--->make  
--->./terminal  
+# RUN
+```shell
+make  
+./terminal
+```  
 
-#functions.c
+# functions.c
 -->Contains the functions like ls,etc
 
-#main.c
+# main.c
 -->Contains the main code
 
-#redir_pipe.c  
+# redir_pipe.c  
 --->Contains some of the functions required
 
-#redir_pipe.h
---->COntains function headers 
+# redir_pipe.h
+--->Contains function headers 
 
-#headers.h
+# headers.h
 -->Contains the header of libraries to be included
 
-#functions.h
+# functions.h
 -->Contains the headers of functions to be included in main.c
 
-#inbuild functions used
+# inbuild functions used
 -->_gethostname_
 -->_getpwuid_
 -->_getuid_
